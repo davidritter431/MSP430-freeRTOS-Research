@@ -62,7 +62,9 @@ https://www.freertos.org/Documentation/02-Kernel/02-Kernel-features/01-Tasks-and
 
 https://freertos.org/Documentation/02-Kernel/04-API-references/02-Task-control/03-xTaskDelayUntil?utm_source=chatgpt.com
 
-### MSP430 Resources
+## MSP430 Resources
+
+### MSP-EXP430FR5994 LaunchPad
 
 https://www.ti.com/tool/MSP-EXP430FR5994?utm_source=chatgpt.com
 
