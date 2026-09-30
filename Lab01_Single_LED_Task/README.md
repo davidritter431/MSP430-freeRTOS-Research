@@ -25,13 +25,10 @@ Create a single freeRTOS task on the MSP430FR5994 that toggles an LED.
 
 The task continuously toggles LED P1.0 and sleeps for a fixed numbe of scheduled ticks.  
 
-'''C
 for(;;)
 {
   P1OUT ^= BIT0;
   vTaskDelay(10); 
 }
-'''
-
 
 
