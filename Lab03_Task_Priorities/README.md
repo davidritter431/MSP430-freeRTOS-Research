@@ -36,6 +36,8 @@ Task2 Priority:
 tskIDLE_PRIORITY // Leaving task 2 the same
 
 Observation:  
+When adding the + 1 to task 1, there was no visible difference.
+The next step then was to remove the delay from task 1.
 
 ### Experiment 2
 
