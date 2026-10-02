@@ -47,9 +47,11 @@ Task1 runs contimously.
 
 Task2 uses:
 
-vTaskDelay(25);
+vTaskDelay(10);
 
 Observation:
+When removing vTaskDelay(10); from task1, the LED from task1 was the only one on.  
+The higher-priority task never entered the blocked state and continuously consumed the CPU time. 
 
 ### Experiment 3 
 
