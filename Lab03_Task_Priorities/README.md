@@ -1,7 +1,7 @@
 # Lab 03 - Task Priorities
 
 ## Objective
-Create 2 freeRTOS tasks on the MSP430FR5994 with different priorities
+Investigate how FreeRTOS task priorities affect execution.  
 
 ## Hardware 
 - MSP430FR5994 LaunchPad
