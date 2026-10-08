@@ -55,11 +55,30 @@ The higher-priority task never entered the blocked state and continuously consum
 
 ### Experiment 3 
 
-Changing the priority during runtime
+Observing task status during runtime
 
 Task1 and Task2 use:
 
 tskIDLE_PRIORITY
 
-Task1 adds: 
-vTaskPrioritySet(NULL, tskIDLE_PRIORITY + 1);
+Task 1 observes Task2 using:
+
+xTask2State = eTaskGetState(xHandle2);
+
+Task 2 observes Task1 using:
+
+xTask1State = eTaskGetState(xHandle1);
+
+The task states are displayed in the CCS Watch window.
+
+Observation:
+Task1 and Task2 were able to observe the state of the other task during runtime. 
+The CCS Watch window was used to view the values of xTask1State and xTask2State.
+
+The possible task states observed are:
+
+eRunning - The task is currently running
+eReady - The task is ready to run
+eBlocked - The task is waiting for an event or delay
+eSuspended - The task has been suspended
+eDeleted - The task has been deleted
