@@ -22,7 +22,7 @@ Investigate how FreeRTOS task priorities affect execution.
 ## Experiments
 - Experiment 1: Task1 priority
 - Experiment 2: Task1 runs continously
-- Experiment 3: Task1 Priority change during runtime
+- Experiment 3: Observing Task States During Runtime
 
 ### Experiment 1
 Changing the priority of one task over the other.  
